@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url('img/bg-intro-desktop.png');
+    background-color: #EF7273;
+    font-family: 'Lexend Deca', sans-serif;
+
+
+
+}
+    
+main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-content {
+    width: 35%;
+    color: white;
+    padding: 0px 30px 0 30px;
+
+    
+
+}
+
+.top-content h2 {
+
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.top-content p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.middle-content {
+    background-color: #4A4382;
+    text-align: center;
+    color: rgb(246, 242, 242);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 400;
+ 
+}
+
+.middle-content p {
+    font-weight: 500;
+
+}
+
+form {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+button {
+    padding: 0.7rem;
+    background-color: hsl(154, 59%, 51%);
+    color: rgb(246, 242, 242);
+    border-radius: 5px;
+    border-style: none;
+}
+
+.bottom-content {
+    width: 35%;
+}
+
+.form-text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: gray;
+}
+
+input ::placeholder {
+    font-weight: 500;
+}
+
+.p-bottom {
+    color: red;
+
+}
+
+.p-middle {
+    font-weight: bolder;
+    
+}
