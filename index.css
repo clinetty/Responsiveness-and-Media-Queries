@@ -99,8 +99,9 @@ button {
     color: gray;
 }
 
-input ::placeholder {
-    font-weight: 500;
+input:placeholder-shown {
+    font-weight: bold;
+
 }
 
 .p-bottom {
